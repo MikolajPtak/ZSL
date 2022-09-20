@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mikołaj Ptak</title>
+</head>
+<body>
+    Zadanie 1
+    <p id="Zad1">tekst</p><br><hr>
+    Zadanie 2
+    <p id="Zad2" onmouseover="Zad2()">tekst</p><br><hr>
+    Zadanie 3
+    <input id="Zad3" type="number">
+    <button onclick="Zad3()">Zatwierdź</button><br><hr>
+
+
+
+
+
+
+
+    <script>
+        var jed=document.getElementById("Zad1");
+        jed.innerHTML+=" Mikołaj Ptak";
+        
+        var dwa=document.getElementById("Zad2");
+        function Zad2(){
+            dwa.style.color="blue";
+            dwa.style.fontSize="20px";
+        }
+
+        function Zad3(){
+        var trz=document.getElementById("Zad3").value;
+        jed.style.fontSize= trz;
+        }
+    </script>
+</body>
+</html>
