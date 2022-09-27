@@ -1,0 +1,57 @@
+.banner{
+    width: 100%;
+    color: orange;
+    background-color: #4E885C;
+    text-align: center;
+    height: 110px;
+    overflow: show;
+}
+.lewy{
+    background-color: #72A37D;
+    color: orange;
+    height: 300px;
+    width: 30%;
+    float: left;
+}
+.srodek{
+    background-image: url("pizza.png");
+    background-color: #A2C3A9;
+    width: 40%;
+    height: 300px;
+    float: left;
+}
+.prawy{
+    background-color: #72a37d;
+    text-align: center;
+    width: 30%;
+    height: 300px;
+    float: right;
+}
+.dol{
+    background-color: #4E885C;
+    color: orange;
+    text-align: center;
+}
+footer{
+    background-color: #4e885c;
+    color: orange;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.pesel{
+    display: inline;
+}
+.odsy:link{
+    background-color: orange;
+    color: green;
+    padding: 15px;
+}
+ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+li {
+    text-align: center;
+}
