@@ -1,7 +1,7 @@
 <?php
 require_once 'conn.php';
-$login= $_POST['login']
-$pass = $_POST['pass']
+$login= $_POST['login'];
+$pass = $_POST['pass'];
 
 $res = $conn->query($sql);
 
@@ -12,4 +12,5 @@ $stmt->execute();
 $result = $stmt->get_result();
 while ($row = $result->fetch_assoc()) {
     // Do something with $row
+}
  ?>
